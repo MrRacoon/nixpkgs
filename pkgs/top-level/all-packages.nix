@@ -2464,6 +2464,8 @@ with pkgs;
 
   lprof = callPackage ../tools/graphics/lprof { };
 
+  fabio = callPackage ../applications/networking/cluster/fabio { };
+
   fastlane = callPackage ../tools/admin/fastlane { };
 
   fatresize = callPackage ../tools/filesystems/fatresize {};
